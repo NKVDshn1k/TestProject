@@ -41,6 +41,8 @@ class Program
         {
             public async Task<List<Guid>> GetAvailableOrgUnitGuids(int year, int month) =>
                 await GetAsync<List<Guid>>(year, month);
+            
+
         }
     }
 }

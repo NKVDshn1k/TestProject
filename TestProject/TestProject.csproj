@@ -183,6 +183,7 @@
   <ItemGroup>
     <Compile Include="ApiService.cs" />
     <Compile Include="AuthorityObject.cs" />
+    <Compile Include="Error.cs" />
     <Compile Include="MessageBoxService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
