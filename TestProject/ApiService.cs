@@ -165,7 +165,7 @@ namespace TestProject
                 if (value is DateTime)
                     stringParam = DateTime.Parse(value.ToString()).ToString(_formatProvider);
                 else
-                    stringParam = value.ToString();
+                    stringParam = value?.ToString() ?? default;
 
                 query[name] = stringParam;
             }

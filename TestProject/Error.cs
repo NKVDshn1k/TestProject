@@ -16,6 +16,6 @@ namespace TestProject
         /// <summary>
         /// Сообщение
         /// </summary>
-        public string? Message { get; set; }
+        public string Message { get; set; }
     }
 }

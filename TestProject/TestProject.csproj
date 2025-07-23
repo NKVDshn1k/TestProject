@@ -185,6 +185,10 @@
     <Compile Include="AuthorityObject.cs" />
     <Compile Include="Error.cs" />
     <Compile Include="MessageBoxService.cs" />
+    <Compile Include="Model\Document.cs" />
+    <Compile Include="Model\GetRetails.cs" />
+    <Compile Include="Model\RetailModel.cs" />
+    <Compile Include="Model\ShortRetailModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
